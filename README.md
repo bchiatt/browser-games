@@ -1,7 +1,7 @@
 ## name of project
 ### Code Badges
-build status icon
-coverage status icon
+[![Build Status](https://travis-ci.org/bchiatt/browser-games.svg)](https://travis-ci.org/bchiatt/browser-games)
+[![Coverage Status](https://coveralls.io/repos/bchiatt/browser-games/badge.png)](https://coveralls.io/r/bchiatt/browser-games)
 
 ### About
 write a description about your project
