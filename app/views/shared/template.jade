@@ -2,13 +2,18 @@ doctype html
 html
   head
     meta(charset='utf-8')
-    title Node/Express.js Template
+    title Browser Games
+    link(rel='stylesheet', href='/css/reset.css')
     link(rel='stylesheet', href='/css/style.css')
   body
-    h1 Node/Express.js Template
-    nav
-      ul
-        li: a(href='/') Home
+    h1 Browser Games
+    .table
+      nav
+        ul
+          li: a(href='/') Home
+          li: a(href='/colors') Colors
+          li: a(href='/pacman') PacMan
+          li: a(href='/painter') Painter
 
     block content
 
