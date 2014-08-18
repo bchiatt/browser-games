@@ -44,6 +44,7 @@ nav li a{
 
 h2{
   font-size: 2.5em;
+  margin-bottom: 25px;
 }
 
 .box, .color{
@@ -68,6 +69,7 @@ h2{
 #canvas{
   background: white;
   border: 1px solid black;
+  margin: 20px;
   font-size: 0;
 }
 

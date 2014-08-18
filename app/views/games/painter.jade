@@ -1,0 +1,19 @@
+extends ../shared/template
+block content
+  h2 Painter Page!
+  ol.directions
+    li 1. Choose a color from the selector and click Add Color.
+    li 2. Add as many colors as you desire.
+    li 3. Select a color by clicking one of the colors you have created.
+    li 4. Drag mouse into the white box below.
+    li 5. Enjoy!
+  #controls
+    input(type='color')
+    button Add Color
+  #colors
+    #selected
+  #canvas
+
+block scripts
+  script(src='/js/user/painter.js')
+
